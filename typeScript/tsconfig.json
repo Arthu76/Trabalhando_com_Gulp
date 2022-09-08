@@ -1,0 +1,10 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compilerOptions": {
+        "rootDir": "src", // diretório raíz da aplicação
+        "noImplicitAny": true, // faz com que não exija que a variavel seja explicitamente com o valor Any, que é colocada quando definida uma variavel que não tem tipo
+        "target": "es5" // a versão do JS que você quer que seja gerada o código final
+    }
+}
